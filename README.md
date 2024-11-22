@@ -54,7 +54,7 @@ The network setup consists of:
    RouterA(config-if)# ip address 10.0.0.1 255.0.0.0
    RouterA(config-if)# no shutdown
    RouterA(config-if)# exit
-   RouterA(config)# interface Serial0/0/0
+   RouterA(config)# interface Serial0/0
    RouterA(config-if)# ip address 20.0.0.1 255.0.0.0
    RouterA(config-if)# no shutdown
    RouterA(config-if)# exit
@@ -72,7 +72,7 @@ The network setup consists of:
     RouterB(config-if)# ip address 30.0.0.1 255.0.0.0
     RouterB(config-if)# no shutdown
     RouterB(config-if)# exit
-    RouterB(config)# interface Serial0/0/0
+    RouterB(config)# interface Serial0/0
     RouterB(config-if)# ip address 20.0.0.2 255.0.0.0
     RouterB(config-if)# no shutdown
     RouterB(config-if)# exit
